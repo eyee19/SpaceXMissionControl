@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'SpaceXMissionControl.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iU3BhY2VYTWlzc2lvbkNvbnRyb2wuam5scCI+DQogIDxpbmZvcm1hdGlvbj4NCiAgICA8dGl0bGU+U3BhY2VYTWlzc2lvbkNvbnRyb2w8L3RpdGxlPg0KICAgIDx2ZW5kb3I+ZGF3c288L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iU3BhY2VYTWlzc2lvbkNvbnRyb2wuamFyIiBzaXplPSI5NjU5OTY4IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Nvbi0yLjguMi1qYXZhZG9jLmphciIgc2l6ZT0iMjYzNDQwIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Nvbi0yLjguMi1zb3VyY2VzLmphciIgc2l6ZT0iMTQ3ODU1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Nvbi0yLjguMi5qYXIiIHNpemU9IjIzMjkzMiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG9yZy5qc29uLmphciIgc2l6ZT0iNDg3OTYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlx0d2l0dGVyNGotYXN5bmMtNC4wLjQuamFyIiBzaXplPSIxOTYwNTMiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlx0d2l0dGVyNGotY29yZS00LjAuNC5qYXIiIHNpemU9IjI5MDQ1NiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHR3aXR0ZXI0ai1leGFtcGxlcy00LjAuNC5qYXIiIHNpemU9IjEzMjE3MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHR3aXR0ZXI0ai1tZWRpYS1zdXBwb3J0LTQuMC40LmphciIgc2l6ZT0iMjA5NTkiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlx0d2l0dGVyNGotc3RyZWFtLTQuMC40LmphciIgc2l6ZT0iNjA4MDgiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iU3BhY2VYTWlzc2lvbkNvbnRyb2wiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJzcGFjZXhtaXNzaW9uY29udHJvbC5TcGFjZVhNaXNzaW9uQ29udHJvbCIgIG5hbWU9IlNwYWNlWE1pc3Npb25Db250cm9sIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedspacexmissioncontrol() {
+        dtjava.embed(
+            {
+                id : 'spacexmissioncontrol',
+                url : 'SpaceXMissionControl.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iU3BhY2VYTWlzc2lvbkNvbnRyb2wuam5scCI+DQogIDxpbmZvcm1hdGlvbj4NCiAgICA8dGl0bGU+U3BhY2VYTWlzc2lvbkNvbnRyb2w8L3RpdGxlPg0KICAgIDx2ZW5kb3I+ZGF3c288L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iU3BhY2VYTWlzc2lvbkNvbnRyb2wuamFyIiBzaXplPSI5NjU5OTY4IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Nvbi0yLjguMi1qYXZhZG9jLmphciIgc2l6ZT0iMjYzNDQwIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Nvbi0yLjguMi1zb3VyY2VzLmphciIgc2l6ZT0iMTQ3ODU1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Nvbi0yLjguMi5qYXIiIHNpemU9IjIzMjkzMiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG9yZy5qc29uLmphciIgc2l6ZT0iNDg3OTYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlx0d2l0dGVyNGotYXN5bmMtNC4wLjQuamFyIiBzaXplPSIxOTYwNTMiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlx0d2l0dGVyNGotY29yZS00LjAuNC5qYXIiIHNpemU9IjI5MDQ1NiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHR3aXR0ZXI0ai1leGFtcGxlcy00LjAuNC5qYXIiIHNpemU9IjEzMjE3MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHR3aXR0ZXI0ai1tZWRpYS1zdXBwb3J0LTQuMC40LmphciIgc2l6ZT0iMjA5NTkiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlx0d2l0dGVyNGotc3RyZWFtLTQuMC40LmphciIgc2l6ZT0iNjA4MDgiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iU3BhY2VYTWlzc2lvbkNvbnRyb2wiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJzcGFjZXhtaXNzaW9uY29udHJvbC5TcGFjZVhNaXNzaW9uQ29udHJvbCIgIG5hbWU9IlNwYWNlWE1pc3Npb25Db250cm9sIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedspacexmissioncontrol);
+</script>
+
+</head><body>
+<h2>Test page for <b>SpaceXMissionControl</b></h2>
+  <b>Webstart:</b> <a href='SpaceXMissionControl.jnlp' onclick="return launchApplication('SpaceXMissionControl.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

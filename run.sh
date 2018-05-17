@@ -1,0 +1,3 @@
+cd dist
+echo Compiling...
+java -jar SpaceXMissionControl.jar
