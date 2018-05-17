@@ -12,6 +12,7 @@
 #### Run using: ```java -jar SpaceXMissionControl.jar```
 ###### Window may appear small when opening application, maximize window as needed
 
+### Release coming soon
 ---
 
 # Project Description
